@@ -1,0 +1,714 @@
+,celltype,marker,author,consensus
+0,Endothelial cells,PECAM1,dk,True
+1,Endothelial cells,TMEM173,dk,False
+2,Endothelial cells,VWF,dk,True
+3,Mesenchymal cells,COL1A1,dk,False
+4,Mesenchymal cells,COL1A2,dk,False
+5,Mesenchymal cells,FN1,dk,False
+6,Smooth muscle cells,ACTA2,dk,True
+7,Smooth muscle cells,CNN1,dk,True
+8,Smooth muscle cells,EDNRB,dk,False
+9,Smooth muscle cells,MYL9,dk,False
+10,Smooth muscle cells,TAGLN,dk,True
+11,B cells,CD37,dk,False
+12,T cells,CD2,dk,True
+13,T cells,CD3D,dk,False
+14,T cells,CD3E,dk,True
+15,T cells,CD8A,dk,True
+16,T cells,GZMB,dk,False
+17,Macrophages,CD68,dk,False
+18,Macrophages,CSF1R,dk,False
+19,Macrophages,HMOX1,dk,False
+20,Endothelial cells,COL1A1,dk,False
+21,Endothelial cells,COL1A2,dk,False
+22,Beige adipocytes,CIDEA,dk,False
+23,Beige adipocytes,TBX1,dk,False
+24,Endothelial cells,ACKR1,dk,False
+25,Endothelial cells,TM4SF1,dk,False
+26,Endothelial cells,ICAM1,dk,True
+27,Endothelial cells,ADAMTS9,dk,False
+28,Smooth muscle cells,MYH11,dk,True
+29,Smooth muscle cells,DES,dk,False
+30,Smooth muscle cells,CALD1,dk,False
+31,Smooth muscle cells,VCL,dk,False
+32,Smooth muscle cells,MYLK,dk,False
+33,Smooth muscle cells,SMTN,dk,False
+34,T cells,IL7R,dk,False
+35,T cells,CD3G,dk,False
+36,Mesenchymal cells,MGP,dk,False
+37,Mesenchymal cells,APOD,dk,False
+38,Mesenchymal cells,CXCL14,dk,False
+39,Mesenchymal cells,APOE,dk,False
+40,Mesenchymal cells,MFAP5,dk,False
+41,Mesenchymal cells,THY1,dk,False
+42,Endothelial cells,PLVAP,dk,False
+43,Macrophages,AIF1,dk,False
+44,Macrophages,CD86,dk,False
+45,Macrophages,CD14,dk,False
+46,Mast cells,MS4A2,dk,False
+47,Macrophages,SPP1,dk,False
+48,Macrophages,F13A1,dk,False
+49,Macrophages,CD209,dk,False
+50,Macrophages,MRC1,dk,True
+51,T cells,TCF7,dk,False
+52,Erythroid cells,HBB,dk,False
+53,Erythroid cells,HBM,dk,False
+54,Microglia,C1QB,dk,False
+55,Microglia,CSF1R,dk,False
+56,Microglia,P2RY12,dk,False
+57,Excitatory neurons,REFOX3,dk,False
+58,Excitatory neurons,NDRG4,dk,False
+59,Excitatory neurons,GRIA3,dk,False
+60,Excitatory neurons,NEUROD2,dk,False
+61,T cells,PTPRC,dk,False
+62,Astrocytes,AQP4,dk,True
+63,Astrocytes,GFAP,dk,True
+64,Astrocytes,SLC4A4,dk,False
+65,Endothelial cells,FLT1,dk,False
+66,Endothelial cells,IGFBP7,dk,False
+67,Endothelial cells,ESAM,dk,False
+68,Endothelial cells,APOLD1,dk,False
+69,Microglia,CD14,dk,False
+70,Excitatory neurons,SLC17A7,dk,True
+71,Excitatory neurons,NEUROD6,dk,False
+72,Microglia,CD68,dk,False
+73,Microglia,CD74,dk,False
+74,Inhibitory neurons,GAD1,dk,True
+75,Inhibitory neurons,GAD2,dk,False
+76,Inhibitory neurons,PVALB,dk,True
+77,Inhibitory neurons,GRIA3,dk,False
+78,Oligodendrocyte progenitor cells,VCAN,dk,False
+79,Microglia,PTPRC,dk,False
+80,Oligodendrocytes,MBP,dk,True
+81,Oligodendrocytes,MAG,dk,False
+82,Oligodendrocytes,CLDN11,dk,False
+83,Oligodendrocytes,CNP,dk,False
+84,Oligodendrocytes,OPALIN,dk,True
+85,Oligodendrocytes,OLIG1,dk,False
+86,Erythroid cells,ALAS2,dk,True
+87,Neural progenitor cells,DCX,dk,False
+88,Neural progenitor cells,STMN2,dk,False
+89,Neural progenitor cells,SOX2,dk,False
+90,B cells,MS4A1,dk,True
+91,B cells,PTPRC,dk,False
+92,"B cells,Transient amplifying cells",MS4A1,dk,False
+93,"B cells,Transient amplifying cells",TOP2A,dk,False
+94,"B cells,Transient amplifying cells",PCNA,dk,False
+95,"B cells,Transient amplifying cells",CCNB1,dk,False
+96,B cells,MZB1,dk,False
+97,B cells,TNFRSF17,dk,False
+98,T cells,CD8B,dk,False
+99,T cells,CD4,dk,True
+100,B cells,FCMR,dk,False
+101,Macrophages,C1QA,dk,False
+102,Macrophages,C1QB,dk,False
+103,Macrophages,IL18,dk,False
+104,Fibroblasts,MFAP4,dk,False
+105,Fibroblasts,MGP,dk,False
+106,Enterocytes,CHP2,dk,False
+107,Enterocytes,FABP1,dk,False
+108,Enterocytes,FABP6,dk,False
+109,Neutrophils,SELL,dk,False
+110,B cells,CD19,dk,True
+111,B cells,CD79A,dk,True
+112,Plasma cells,MZB1,dk,False
+113,T cells,CD69,dk,False
+114,"AT1,AT2",AGER,dk,False
+115,"AT1,AT2",AQP5,dk,False
+116,"AT1,AT2",CLIC5,dk,False
+117,"AT1,AT2",SFTPB,dk,False
+118,"AT1,AT2",SFTPC,dk,False
+119,"AT1,AT2",SFTPD,dk,False
+120,Basophils,FCER1A,dk,False
+121,Ciliated cells,DNAAF1,dk,False
+122,Ciliated cells,DNAH3,dk,False
+123,Ciliated cells,FOXJ1,dk,False
+124,Clara cells,ALDH1A1,dk,False
+125,Hepatocytes,ALB,dk,True
+126,Hepatocytes,APOA1,dk,False
+127,Hepatocytes,ARG1,dk,False
+128,Hepatocytes,RBP4,dk,False
+129,Hepatocytes,PCK1,dk,False
+130,Hepatocytes,ALDOB,dk,False
+131,Hepatocytes,ASS1,dk,False
+132,Hepatocytes,APOH,dk,False
+133,Macrophages,CD74,dk,False
+134,T cells,CD52,dk,False
+135,T cells,GZMK,dk,False
+136,Kupffer cells,VSIG4,dk,False
+137,Kupffer cells,CD163,dk,False
+138,NK cells,KLRB1,dk,False
+139,NK cells,NKG7,dk,False
+140,Macrophages,VCAN,dk,False
+141,Macrophages,LYZ,dk,False
+142,Macrophages,S100A8,dk,False
+143,Macrophages,S100A9,dk,False
+144,T cells,STMN1,dk,False
+145,B cells,CD79B,dk,False
+146,B cells,CD22,dk,False
+147,T cells,TRDC,dk,False
+148,Plasma cells,ENSSSCG00000038719,dk,False
+149,CD4+ Naive  T cells,IL7R,dk,False
+150,CD4+ Naive  T cells,CCR7,dk,False
+151,CD4+ Naive  T cells,CD3E,dk,False
+152,CD4+ Naive  T cells,CD3G,dk,False
+153,CD4+ Naive  T cells,CD3D,dk,False
+154,CD4+ Naive  T cells,CD4,dk,False
+155,CD8+ Cytotoxic T cells,CD8A,dk,False
+156,CD8+ Cytotoxic T cells,CD3E,dk,False
+157,CD8+ Cytotoxic T cells,CD3G,dk,False
+158,CD8+ Cytotoxic T cells,CD3D,dk,False
+159,Naive B cells,MS4A1,dk,False
+160,Naive B cells,CD83,dk,False
+161,CD8+ Cytotoxic T cells,GNLY,dk,False
+162,CD8+ Cytotoxic T cells,NKG7,dk,False
+163,Memory B cells,MS4A1,dk,False
+164,Memory B cells,CD83,dk,False
+165,Memory B cells,ENSSSCG00000036983,dk,False
+166,Monocytes,CD14,dk,False
+167,Monocytes,LYZ,dk,False
+168,Monocytes,CD68,dk,False
+169,CD8+ Naive T cells,IL7R,dk,False
+170,CD8+ Naive T cells,CCR7,dk,False
+171,CD8+ Naive T cells,CD8A,dk,False
+172,CD8+ Naive T cells,CD8B,dk,False
+173,CD8+ Naive T cells,CD3E,dk,False
+174,CD8+ Naive T cells,CD3G,dk,False
+175,CD8+ Naive T cells,CD3D,dk,False
+176,CD8+ Cytotoxic T cells,IL7R,dk,False
+177,CD8+ Cytotoxic T cells,CCR7,dk,False
+178,Cycling cells,CD3G,dk,False
+179,Cycling cells,CD3D,dk,False
+180,Cycling cells,MZB1,dk,False
+181,Cycling cells,TOP2A,dk,False
+182,Cycling cells,ENSSSCG00000026302,dk,False
+183,CD8+ Naive T cells,GZMK,dk,False
+184,Megakaryocytes,PPBP,dk,False
+185,Dendritic cells,FCER1A,dk,False
+186,Dendritic cells,LYZ,dk,False
+187,Rod photoreceptor cells,PDE6A,dk,True
+188,Rod photoreceptor cells,CNGA1,dk,False
+189,Rod photoreceptor cells,RHO,dk,False
+190,Rod photoreceptor cells,SAG,dk,True
+191,Retinal ganglion cells,NEFL,dk,False
+192,Retinal ganglion cells,THY1,dk,False
+193,Retinal ganglion cells,NRN1,dk,False
+194,Bipolar cells,NETO1,dk,False
+195,Bipolar cells,PRKCA,dk,False
+196,Bipolar cells,PCP2,dk,False
+197,Bipolar cells,TRPM1,dk,True
+198,Bipolar cells,GNG13,dk,False
+199,Bipolar cells,CAMK2B,dk,True
+200,Muller glia,RLBP1,dk,False
+201,Muller glia,CA2,dk,False
+202,Microglia,HLA-DRA,dk,False
+203,Microglia,C1QA,dk,False
+204,Cone photoreceptor cells,ARR3,dk,False
+205,T cells,CCR7,dk,False
+206,Macrophages,C1QC,dk,False
+207,Macrophages,VCAM1,dk,False
+208,NK cells,KLRF1,dk,False
+209,NK cells,ENSSSCG00000036618,dk,False
+210,NK cells,KLRK1,dk,False
+211,NK cells,NCR1,dk,False
+212,Plasma cells,ENSSSCG00000036983,dk,False
+213,Dendritic cells,HLA-DRA,dk,False
+214,Dendritic cells,XCR1,dk,False
+215,Dendritic cells,ANPEP,dk,False
+216,Oligodendrocytes,ERBIN,dk,False
+217,Microglia,RUNX1,dk,False
+218,Microglia,ARHGAP24,dk,False
+219,Microglia,CALCR,dk,False
+220,Oligodendrocyte progenitor cells,PCDH15,dk,False
+221,Oligodendrocyte progenitor cells,LHFPL3,dk,False
+222,Inhibitory neurons,SLC6A1,dk,False
+223,Astrocytes,SLC1A3,dk,True
+224,Astrocytes,SLC1A2,dk,False
+225,Endothelial cells,SLC16A9,dk,False
+226,Endothelial cells,COLEC12,dk,False
+227,Excitatory neurons,TBR1,dk,True
+228,Excitatory neurons,TLE4,dk,False
+229,Excitatory neurons,SATB2,dk,False
+230,Excitatory neurons,RBFOX1,dk,False
+231,Oligodendrocytes,PLP1,dk,False
+232,Oligodendrocytes,CCP110,dk,False
+233,Oligodendrocytes,CRYAB,dk,False
+234,Oligodendrocytes,MOG,dk,True
+235,Oligodendrocyte progenitor cells,SOX6,dk,False
+236,Oligodendrocyte progenitor cells,PDGFRA,dk,False
+237,Oligodendrocyte progenitor cells,OLIG1,dk,False
+238,Microglia,C1QC,dk,False
+239,Endothelial cells,CDH5,dk,False
+240,Inhibitory neurons,SLC32A1,dk,True
+241,Microglia,AIF1,dk,False
+242,Excitatory neurons,RBFOX3,dk,False
+243,Excitatory neurons,CALB2,dk,False
+244,Excitatory neurons,SLC17A6,dk,False
+245,Excitatory neurons,STMN2,dk,False
+246,Excitatory neurons,SNAP25,dk,False
+247,Newly formed oligodendrocytes,FYN,dk,False
+248,Granule cells,RBFOX3,dk,False
+249,Granule cells,RELN,dk,False
+250,Granule cells,SLC17A7,dk,False
+251,Granule cells,RBFOX1,dk,False
+252,Astrocytes,SERPINF1,dk,False
+253,Purkinje cells,GAD1,dk,False
+254,Purkinje cells,GAD2,dk,False
+255,Purkinje cells,PVALB,dk,False
+256,Purkinje cells,SLC32A1,dk,False
+257,Astrocytes,MFGE8,dk,False
+258,Microglia,CTSS,dk,False
+259,Purkinje cells,CALB1,dk,False
+260,Purkinje cells,PCP2,dk,False
+261,Endothelial cells,PDGFRB,dk,False
+262,Neural progenitor cells,PAX6,dk,False
+263,Excitatory neurons,TMEM130,dk,False
+264,Excitatory neurons,SLC6A4,dk,False
+265,Cardiomyocytes,ACTN2,dk,False
+266,Cardiomyocytes,MYH7,dk,True
+267,Cardiomyocytes,FHL2,dk,False
+268,Cardiomyocytes,TNNT2,dk,False
+269,Fibroblasts,DCN,dk,True
+270,Fibroblasts,GSN,dk,False
+271,Macrophages,CD163,dk,True
+272,B cells,PECAM1,dk,False
+273,Endothelial cells,PTPRC,dk,False
+274,Proximal tubule cells,CUBN,dk,False
+275,Proximal tubule cells,LRP2,dk,False
+276,Proximal tubule cells,SLC13A3,dk,False
+277,Proximal tubule cells,SLC22A8,dk,False
+278,Proximal tubule cells,SLC34A1,dk,False
+279,Loop of Henle's cells,SLC12A1,dk,False
+280,Endothelial cells,EMCN,dk,False
+281,Endothelial cells,ENG,dk,False
+282,Endothelial cells,NRP1,dk,False
+283,Endothelial cells,KDR,dk,False
+284,Endothelial cells,BST2,dk,False
+285,Distal convoluted tubule cells,TMEM52B,dk,False
+286,Distal convoluted tubule cells,TMEM213,dk,False
+287,Distal convoluted tubule cells,TMEM72,dk,False
+288,Fibroblasts,CALD1,dk,False
+289,Fibroblasts,COL6A1,dk,False
+290,Fibroblasts,EMILIN1,dk,False
+291,Ureteric epithelial cells,EPCAM,dk,False
+292,Ureteric epithelial cells,WFDC2,dk,False
+293,Collecting duct cells,AQP3,dk,False
+294,Collecting duct cells,GATA2,dk,False
+295,Collecting duct cells,AQP2,dk,True
+296,Collecting duct cells,PVALB,dk,True
+297,Collecting duct cells,TMEM213,dk,True
+298,Collecting duct cells,CLDN8,dk,True
+299,Podocytes,NPHS1,dk,False
+300,Podocytes,NPHS2,dk,False
+301,Podocytes,WT1,dk,False
+302,Podocytes,CLIC5,dk,False
+303,Fibroblasts,SLIT3,dk,False
+304,Hepatocytes,GHR,dk,False
+305,Hepatocytes,HAMP,dk,False
+306,Hepatocytes,HSD11B1,dk,False
+307,Hepatocytes,RPP25L,dk,False
+308,Endothelial cells,LIFR,dk,False
+309,Hepatic stellate cells,ACTA2,dk,False
+310,Hepatic stellate cells,COL1A1,dk,False
+311,Hepatic stellate cells,RBP1,dk,False
+312,Hepatic stellate cells,COLEC11,dk,False
+313,Cholangiocytes,MMP7,dk,False
+314,Cholangiocytes,SPP1,dk,False
+315,Cholangiocytes,ONECUT1,dk,False
+316,AT2,SFTPC,dk,False
+317,AT1,AGER,dk,False
+318,AT1,SCGB1A1,dk,False
+319,AT2,SFTPB,dk,False
+320,AT2,SFTPD,dk,False
+321,AT2,ABCA3,dk,False
+322,Fibroblasts,COL3A1,dk,True
+323,Fibroblasts,COL1A2,dk,False
+324,Ciliated cells,CCDC78,dk,False
+325,Endothelial cells,CLDN5,dk,False
+326,AT1,AQP5,dk,False
+327,AT1,CLIC5,dk,False
+328,Macrophages,CTSS,dk,False
+329,Macrophages,MARCO,dk,True
+330,Immune cells,PTPRC,dk,False
+331,AT2,SCGB3A2,dk,False
+332,Fibroblasts,ACTA2,dk,False
+333,Fibroblasts,PDGFRB,dk,False
+334,Smooth muscle cells,PDGFRB,dk,False
+335,T cells,GZMA,dk,False
+336,Endothelial cells,CD34,dk,True
+337,Rod photoreceptor cells,GNGT1,dk,False
+338,Retinal ganglion cells,STMN2,dk,False
+339,Retinal ganglion cells,NEFH,dk,False
+340,Cone photoreceptor cells,PDE6C,dk,False
+341,Adipocytes,ADIPOQ,hpa,False
+342,Adipocytes,FABP4,hpa,False
+343,Adipocytes,LIPE,hpa,False
+344,Adipocytes,PLIN1,hpa,False
+345,Alveolar cells type 1,AGER,hpa,False
+346,Alveolar cells type 1,CAV1,hpa,False
+347,Alveolar cells type 1,EMP2,hpa,False
+348,Alveolar cells type 2,NAPSA,hpa,False
+349,Alveolar cells type 2,SFTPA1,hpa,False
+350,Astrocytes,ALDH1L1,hpa,False
+351,Astrocytes,AQP4,hpa,True
+352,Astrocytes,GFAP,hpa,True
+353,Astrocytes,SLC14A1,hpa,False
+354,Astrocytes,SLC1A3,hpa,True
+355,B cells,CD19,hpa,True
+356,B cells,CD79A,hpa,True
+357,B cells,MS4A1,hpa,True
+358,Basal keratinocytes,COL17A1,hpa,False
+359,Basal keratinocytes,ENSSSCG00000055849,hpa,False
+360,Basal keratinocytes,ENSSSCG00000017448,hpa,False
+361,Basal keratinocytes,KRT5,hpa,False
+362,Basal prostatic cells,ENSSSCG00000055849,hpa,False
+363,Basal prostatic cells,ENSSSCG00000017448,hpa,False
+364,Basal prostatic cells,KRT5,hpa,False
+365,Basal prostatic cells,NGFR,hpa,False
+366,Basal prostatic cells,TP63,hpa,False
+367,Basal respiratory cells,COL17A1,hpa,False
+368,Basal respiratory cells,ENSSSCG00000055849,hpa,False
+369,Basal respiratory cells,ENSSSCG00000017448,hpa,False
+370,Basal respiratory cells,KRT5,hpa,False
+371,Basal respiratory cells,NGFR,hpa,False
+372,Basal respiratory cells,TP63,hpa,False
+373,Basal squamous epithelial cells,COL17A1,hpa,False
+374,Basal squamous epithelial cells,KRT15,hpa,False
+375,Bipolar cells,CAMK2B,hpa,True
+376,Bipolar cells,GRM6,hpa,False
+377,Bipolar cells,TRPM1,hpa,True
+378,Breast glandular cells,CSN2,hpa,False
+379,Breast glandular cells,ESR1,hpa,False
+380,Breast glandular cells,FOXA1,hpa,False
+381,Breast glandular cells,LALBA,hpa,False
+382,Breast glandular cells,ENSSSCG00000035033,hpa,False
+383,Breast myoepithelial cells,TP63,hpa,False
+384,Cardiomyocytes,MYH7,hpa,True
+385,Cardiomyocytes,MYL2,hpa,False
+386,Cardiomyocytes,ENSSSCG00000053021,hpa,False
+387,Cardiomyocytes,ENSSSCG00000061723,hpa,False
+388,Cholangiocytes,ELF3,hpa,False
+389,Cholangiocytes,KRT19,hpa,False
+390,Cholangiocytes,ENSSSCG00000033452,hpa,False
+391,Club cells,BPIFB1,hpa,False
+392,Club cells,CYP4B1,hpa,False
+393,Club cells,CYP51A1,hpa,False
+394,Club cells,MUC15,hpa,False
+395,Club cells,ENSSSCG00000011850,hpa,False
+396,Club cells,SCGB1A1,hpa,False
+397,Club cells,SCGB3A1,hpa,False
+398,COL22A1+ CUX2+ Excitatory neurons,COL22A1,hpa,False
+399,Collecting duct cells,AQP2,hpa,True
+400,Collecting duct cells,CLDN8,hpa,True
+401,Collecting duct cells,PVALB,hpa,True
+402,Collecting duct cells,TMEM213,hpa,True
+403,Cone photoreceptor cells,GNAT2,hpa,False
+404,Cone photoreceptor cells,ENSSSCG00000029523,hpa,True
+405,Cone photoreceptor cells,ENSSSCG00000029523,hpa,True
+406,Cytotrophoblasts,ENSSSCG00000057502,hpa,False
+407,Cytotrophoblasts,ENSSSCG00000061577,hpa,False
+408,Cytotrophoblasts,ENSSSCG00000012709,hpa,False
+409,Cytotrophoblasts,ENSSSCG00000060853,hpa,False
+410,Cytotrophoblasts,ENSSSCG00000043661,hpa,False
+411,Cytotrophoblasts,ENSSSCG00000012733,hpa,False
+412,Cytotrophoblasts,ENSSSCG00000012740,hpa,False
+413,Cytotrophoblasts,ENSSSCG00000041318,hpa,False
+414,Cytotrophoblasts,ENSSSCG00000048272,hpa,False
+415,Cytotrophoblasts,ENSSSCG00000051888,hpa,False
+416,Cytotrophoblasts,PAGE4,hpa,False
+417,Cytotrophoblasts,PEG10,hpa,False
+418,Dendritic cells,CD1E,hpa,False
+419,Dendritic cells,GZMB,hpa,False
+420,Distal enterocytes,CDH17,hpa,False
+421,Distal enterocytes,GPA33,hpa,False
+422,Distal enterocytes,KRT20,hpa,False
+423,Distal tubular cells,SLC12A1,hpa,False
+424,Distal tubular cells,TMEM213,hpa,False
+425,Distal tubular cells,TMEM72,hpa,False
+426,Distal tubular cells,UMOD,hpa,False
+427,Ductal cells,AQP1,hpa,False
+428,Ductal cells,CFTR,hpa,False
+429,Ductal cells,CRP,hpa,False
+430,Early spermatids,ACRV1,hpa,False
+431,Early spermatids,ENSSSCG00000005371,hpa,False
+432,Early spermatids,SPACA1,hpa,False
+433,Endometrial ciliated cells,CAPS,hpa,False
+434,Endometrial ciliated cells,SNTN,hpa,False
+435,Endometrial ciliated cells,TPPP3,hpa,False
+436,Endometrial stromal cells,GJA1,hpa,False
+437,Endometrial stromal cells,MME,hpa,False
+438,Endometrial stromal cells,SFRP4,hpa,False
+439,Endometrial stromal cells,ZEB1,hpa,False
+440,Endothelial cells,CD34,hpa,True
+441,Endothelial cells,EMP1,hpa,False
+442,Endothelial cells,ICAM1,hpa,True
+443,Endothelial cells,PECAM1,hpa,True
+444,Endothelial cells,ENSSSCG00000030960,hpa,False
+445,Endothelial cells,ENSSSCG00000006286,hpa,False
+446,Endothelial cells,SLC2A1,hpa,False
+447,Endothelial cells,VWF,hpa,True
+448,Enterocytes,CDH17,hpa,False
+449,Enterocytes,KRT20,hpa,False
+450,Enterocytes,SLC26A3,hpa,False
+451,Enteroendocrine cells,CHGA,hpa,False
+452,Enteroendocrine cells,CHGB,hpa,False
+453,Enteroendocrine cells,SCG5,hpa,False
+454,Erythroid cells,ALAS2,hpa,True
+455,Erythroid cells,CA1,hpa,False
+456,Erythroid cells,ENSSSCG00000009046,hpa,False
+457,Erythroid cells,SLC4A1,hpa,False
+458,Erythroid cells,TFRC,hpa,False
+459,Excitatory neurons,CUX2,hpa,False
+460,Excitatory neurons,FOXP2,hpa,False
+461,Excitatory neurons,GRIN1,hpa,False
+462,Excitatory neurons,NRGN,hpa,False
+463,Excitatory neurons,OPRK1,hpa,False
+464,Excitatory neurons,SLC17A7,hpa,True
+465,Excitatory neurons,TBR1,hpa,True
+466,Exocrine glandular cells,ENSSSCG00000036331,hpa,False
+467,Exocrine glandular cells,ENSSSCG00000028277,hpa,False
+468,Exocrine glandular cells,ENSSSCG00000030140,hpa,False
+469,Exocrine glandular cells,ENSSSCG00000033100,hpa,False
+470,Exocrine glandular cells,ENSSSCG00000039921,hpa,False
+471,Exocrine glandular cells,ENSSSCG00000031311,hpa,False
+472,Exocrine glandular cells,ENSSSCG00000037400,hpa,False
+473,Exocrine glandular cells,CPA1,hpa,False
+474,Extravillous trophoblasts,DIO2,hpa,False
+475,Extravillous trophoblasts,FSTL3,hpa,False
+476,FAP+ CUX2+ Excitatory neurons,FAP,hpa,False
+477,Fibroblasts,COL3A1,hpa,True
+478,Fibroblasts,DCN,hpa,True
+479,Fibroblasts,FBN1,hpa,False
+480,Fibroblasts,HOXA11,hpa,False
+481,Fibroblasts,LUM,hpa,False
+482,Fibroblasts,PDGFRA,hpa,False
+483,FRMD4B+ CUX2+ Excitatory neurons,FRMD4B,hpa,False
+484,Ganglion cells,CARTPT,hpa,False
+485,Ganglion cells,POU4F1,hpa,False
+486,Ganglion cells,RBPMS,hpa,False
+487,Ganglion cells,SLC17A6,hpa,False
+488,Gastric mucus-secreting cells,ELF3,hpa,False
+489,Gastric mucus-secreting cells,GKN1,hpa,False
+490,Gastric mucus-secreting cells,KRT18,hpa,False
+491,Gastric mucus-secreting cells,KRT8,hpa,False
+492,Gastric mucus-secreting cells,ENSSSCG00000006525,hpa,False
+493,Glandular and luminal cells,CA12,hpa,False
+494,Glandular and luminal cells,CRISP3,hpa,False
+495,Glandular and luminal cells,HGD,hpa,False
+496,Glandular and luminal cells,IDH1,hpa,False
+497,Glandular and luminal cells,KRT17,hpa,False
+498,Glandular and luminal cells,PAEP,hpa,False
+499,Glandular and luminal cells,PLLP,hpa,False
+500,Glandular and luminal cells,PSAT1,hpa,False
+501,Glandular and luminal cells,PTGS1,hpa,False
+502,Glandular and luminal cells,SOX9,hpa,False
+503,Granulocytes,CEBPE,hpa,False
+504,Granulocytes,HDC,hpa,False
+505,Granulocytes,MS4A2,hpa,False
+506,Granulosa cells,AMH,hpa,False
+507,Granulosa cells,HSD17B1,hpa,False
+508,Granulosa cells,SERPINE2,hpa,False
+509,Hepatocytes,ALB,hpa,True
+510,Hepatocytes,FGG,hpa,False
+511,Hepatocytes,HPX,hpa,False
+512,Hofbauer cells,C1QB,hpa,False
+513,Hofbauer cells,CD14,hpa,False
+514,Hofbauer cells,ENSSSCG00000008769,hpa,False
+515,Hofbauer cells,ENSSSCG00000017956,hpa,False
+516,Horizontal cells,LHX1,hpa,False
+517,Horizontal cells,ONECUT1,hpa,False
+518,Horizontal cells,ONECUT2,hpa,False
+519,Inhibitory neurons,CA8,hpa,False
+520,Inhibitory neurons,CALB1,hpa,False
+521,Inhibitory neurons,CALB2,hpa,False
+522,Inhibitory neurons,EYA4,hpa,False
+523,Inhibitory neurons,GAD1,hpa,True
+524,Inhibitory neurons,LAMP5,hpa,False
+525,Inhibitory neurons,LHX6,hpa,False
+526,Inhibitory neurons,NOS1,hpa,False
+527,Inhibitory neurons,PVALB,hpa,True
+528,Inhibitory neurons,SLC32A1,hpa,True
+529,Inhibitory neurons,SST,hpa,False
+530,Inhibitory neurons,THSD7B,hpa,False
+531,Inhibitory neurons,VIP,hpa,False
+532,Intestinal goblet cells,CLCA1,hpa,False
+533,Intestinal goblet cells,ENSSSCG00000006525,hpa,False
+534,Intestinal goblet cells,ENSSSCG00000033382,hpa,False
+535,Intestinal goblet cells,ENSSSCG00000033452,hpa,False
+536,Intestinal goblet cells,SPDEF,hpa,False
+537,Intestinal goblet cells,SPINK4,hpa,False
+538,Intestinal goblet cells,TFF3,hpa,False
+539,Ionocytes,CFTR,hpa,False
+540,Ionocytes,FOXI1,hpa,False
+541,Ionocytes,TFCP2L1,hpa,False
+542,Kupffer cells,MARCO,hpa,False
+543,Kupffer cells,S100A8,hpa,False
+544,Kupffer cells,ENSSSCG00000006588,hpa,False
+545,Langerhans cells,ENSSSCG00000025644,hpa,False
+546,Langerhans cells,ENSSSCG00000030958,hpa,False
+547,Langerhans cells,CD207,hpa,False
+548,Langerhans cells,ENSSSCG00000008769,hpa,False
+549,Langerhans cells,ENSSSCG00000017956,hpa,False
+550,Late spermatids,PRM2,hpa,False
+551,Late spermatids,SPATA3,hpa,False
+552,Late spermatids,TNP1,hpa,False
+553,Leydig cells,C7,hpa,False
+554,Leydig cells,CFD,hpa,False
+555,Leydig cells,IGF1,hpa,False
+556,Macrophages,CD163,hpa,True
+557,Macrophages,ENSSSCG00000008769,hpa,False
+558,Macrophages,ENSSSCG00000017956,hpa,False
+559,Macrophages,MARCO,hpa,True
+560,Macrophages,MRC1,hpa,True
+561,Macrophages,MSR1,hpa,False
+562,Melanocytes,DCT,hpa,False
+563,Melanocytes,MLANA,hpa,False
+564,Melanocytes,TYRP1,hpa,False
+565,Microglial cells,AIF1,hpa,False
+566,Microglial cells,APBB1IP,hpa,False
+567,Microglial cells,ITGAM,hpa,False
+568,Microglial cells,P2RY12,hpa,False
+569,Microglial cells,TYROBP,hpa,False
+570,Monocytes,ENSSSCG00000036618,hpa,False
+571,Mucus glandular cells,ENSSSCG00000013714,hpa,False
+572,Mucus glandular cells,ENSSSCG00000033452,hpa,False
+573,Muller glia cells,APOE,hpa,False
+574,Muller glia cells,CLU,hpa,False
+575,Muller glia cells,ENSSSCG00000040412,hpa,False
+576,Muller glia cells,ENSSSCG00000015545,hpa,False
+577,NK cells,CD27,hpa,False
+578,NK cells,NCAM1,hpa,False
+579,NKX2-1+ Inhibitory neurons,NKX2-1,hpa,False
+580,Oligodendrocyte precursor cells,CSPG4,hpa,False
+581,Oligodendrocyte precursor cells,GPR17,hpa,False
+582,Oligodendrocyte precursor cells,PDGFRA,hpa,False
+583,Oligodendrocytes,MBP,hpa,True
+584,Oligodendrocytes,MOG,hpa,True
+585,Oligodendrocytes,OLIG2,hpa,False
+586,Oligodendrocytes,OPALIN,hpa,True
+587,Oocytes,FIGLA,hpa,False
+588,Oocytes,IZUMO1R,hpa,False
+589,Oocytes,STAG3,hpa,False
+590,Oocytes,ZP2,hpa,False
+591,Oocytes,ZP3,hpa,False
+592,Oocytes,ZP4,hpa,False
+593,Pancreatic endocrine cells,GCG,hpa,False
+594,Pancreatic endocrine cells,INS,hpa,False
+595,Pancreatic endocrine cells,PPY,hpa,False
+596,Pancreatic endocrine cells,SST,hpa,False
+597,Paneth cells,CA4,hpa,False
+598,Paneth cells,CA7,hpa,False
+599,Paneth cells,SPIB,hpa,False
+600,Peptic cells,MYL9,hpa,False
+601,Peptic cells,NEXN,hpa,False
+602,Peptic cells,ENSSSCG00000013092,hpa,False
+603,Pericytes,FN1,hpa,False
+604,Pericytes,PDGFRB,hpa,False
+605,Peritubular cells,ACTA2,hpa,False
+606,Peritubular cells,MYL9,hpa,False
+607,Peritubular cells,TPM1,hpa,False
+608,Plasma cells,PIM2,hpa,False
+609,Plasma cells,SDC1,hpa,False
+610,Plasma cells,SEC11C,hpa,False
+611,Platelets,GP9,hpa,False
+612,Prostatic glandular cells,ENSSSCG00000010400,hpa,False
+613,Proximal enterocytes,ENSSSCG00000057909,hpa,False
+614,Proximal enterocytes,ENSSSCG00000016284,hpa,False
+615,Proximal enterocytes,ENSSSCG00000053339,hpa,False
+616,Proximal enterocytes,CDH17,hpa,False
+617,Proximal enterocytes,KRT20,hpa,False
+618,Proximal tubular cells,MIOX,hpa,False
+619,Proximal tubular cells,ENSSSCG00000021579,hpa,False
+620,Proximal tubular cells,SLC22A8,hpa,False
+621,Proximal tubular cells,TMEM174,hpa,False
+622,PV+ CHRNA2+ GABRG1+ Inhibitory neurons,CHRNA2,hpa,False
+623,PV+ CHRNA2+ GABRG1+ Inhibitory neurons,GABRG1,hpa,False
+624,Respiratory ciliated cells,CAPSL,hpa,False
+625,Respiratory ciliated cells,CFAP100,hpa,False
+626,Respiratory ciliated cells,CROCC,hpa,False
+627,Respiratory ciliated cells,DNAH5,hpa,False
+628,Respiratory ciliated cells,RSPH4A,hpa,False
+629,Respiratory ciliated cells,SNTN,hpa,False
+630,Respiratory ciliated cells,TPPP3,hpa,False
+631,Rod photoreceptor cells,NR2E3,hpa,False
+632,Rod photoreceptor cells,PDE6A,hpa,True
+633,Rod photoreceptor cells,SAG,hpa,True
+634,Salivary duct cells,KLK1,hpa,False
+635,Salivary duct cells,SLC26A9,hpa,False
+636,Salivary duct cells,SLC5A5,hpa,False
+637,Schwann cells,MBP,hpa,False
+638,Schwann cells,MPZ,hpa,False
+639,Schwann cells,ENSSSCG00000035756,hpa,False
+640,Schwann cells,ENSSSCG00000026140,hpa,False
+641,Schwann cells,SOX10,hpa,False
+642,Serous glandular cells,ENSSSCG00000036331,hpa,False
+643,Serous glandular cells,ENSSSCG00000028277,hpa,False
+644,Serous glandular cells,ENSSSCG00000030140,hpa,False
+645,Serous glandular cells,ENSSSCG00000033100,hpa,False
+646,Serous glandular cells,ENSSSCG00000039921,hpa,False
+647,Serous glandular cells,ENSSSCG00000031311,hpa,False
+648,Serous glandular cells,CA6,hpa,False
+649,Serous glandular cells,ENSSSCG00000035033,hpa,False
+650,Sertoli cells,AMH,hpa,False
+651,Sertoli cells,DEFB119,hpa,False
+652,Sertoli cells,SLCO6A1,hpa,False
+653,Sertoli cells,SOCS7,hpa,False
+654,Sertoli cells,WT1,hpa,False
+655,Skeletal muscle myocytes,ACTA1,hpa,False
+656,Skeletal muscle myocytes,DES,hpa,False
+657,Skeletal muscle myocytes,MYL2,hpa,False
+658,Skeletal myocytes,ACTA1,hpa,False
+659,Skeletal myocytes,CKM,hpa,False
+660,Skeletal myocytes,MYL2,hpa,False
+661,Skeletal myocytes,TNNC2,hpa,False
+662,Skeletal myocytes,ENSSSCG00000053021,hpa,False
+663,Skeletal myocytes,ENSSSCG00000061723,hpa,False
+664,Smooth muscle cells,ACTA2,hpa,True
+665,Smooth muscle cells,ACTG2,hpa,False
+666,Smooth muscle cells,CNN1,hpa,True
+667,Smooth muscle cells,MYH11,hpa,True
+668,Smooth muscle cells,TAGLN,hpa,True
+669,Spermatocytes,SPO11,hpa,False
+670,Spermatocytes,SYCP3,hpa,False
+671,Spermatocytes,TOP2A,hpa,False
+672,Spermatogonia,KIT,hpa,False
+673,Spermatogonia,SOX4,hpa,False
+674,Squamous epithelial cells,ADH7,hpa,False
+675,Squamous epithelial cells,CDH1,hpa,False
+676,Squamous epithelial cells,CLDN1,hpa,False
+677,Squamous epithelial cells,CRNN,hpa,False
+678,Squamous epithelial cells,EPCAM,hpa,False
+679,Squamous epithelial cells,ENSSSCG00000055849,hpa,False
+680,Squamous epithelial cells,ENSSSCG00000017448,hpa,False
+681,Squamous epithelial cells,ENSSSCG00000061201,hpa,False
+682,Squamous epithelial cells,ENSSSCG00000055044,hpa,False
+683,Squamous epithelial cells,ENSSSCG00000000248,hpa,False
+684,Squamous epithelial cells,ENSSSCG00000057223,hpa,False
+685,Squamous epithelial cells,ENSSSCG00000053481,hpa,False
+686,Squamous epithelial cells,ENSSSCG00000006525,hpa,False
+687,SST+ Inhibitory neurons,SST,hpa,False
+688,Stem cells,ASCL2,hpa,False
+689,Stem cells,LGR5,hpa,False
+690,Stem cells,RGMB,hpa,False
+691,Stem cells,SMOC2,hpa,False
+692,Suprabasal keratinocytes,KRT1,hpa,False
+693,Suprabasal keratinocytes,KRT10,hpa,False
+694,Suprabasal keratinocytes,KRTDAP,hpa,False
+695,Syncytiotrophoblasts,ENSSSCG00000034212,hpa,False
+696,T cells,CD2,hpa,True
+697,T cells,CD3E,hpa,True
+698,T cells,CD4,hpa,True
+699,T cells,CD8A,hpa,True
+700,T cells,FOXP3,hpa,False
+701,T cells,IL17A,hpa,False
+702,Theca cells,CYP17A1,hpa,False
+703,Theca cells,INSL3,hpa,False
+704,Thymic epithelial cells,KRT18,hpa,False
+705,Thymic epithelial cells,KRT5,hpa,False
+706,Thymic epithelial cells,KRT8,hpa,False
+707,Undifferentiated cells,ASCL2,hpa,False
+708,Undifferentiated cells,ENSSSCG00000026302,hpa,False
+709,Undifferentiated cells,ENSSSCG00000003494,hpa,False
+710,Urothelial cells,UPK1A,hpa,False
+711,Urothelial cells,UPK1B,hpa,False
+712,Urothelial cells,UPK3B,hpa,False

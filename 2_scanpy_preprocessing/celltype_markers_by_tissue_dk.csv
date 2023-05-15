@@ -1,0 +1,694 @@
+,celltype,marker,chemistry,method,tissue,sample
+0,Endothelial cells,PECAM1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+1,Endothelial cells,TMEM173,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+2,Endothelial cells,VWF,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+3,Mesenchymal cells,COL1A1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+4,Mesenchymal cells,COL1A2,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+5,Mesenchymal cells,FN1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+6,Smooth muscle cells,ACTA2,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+7,Smooth muscle cells,CNN1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+8,Smooth muscle cells,EDNRB,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+9,Smooth muscle cells,MYL9,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+10,Smooth muscle cells,TAGLN,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+11,B cells,CD37,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+12,T cells,CD2,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+13,T cells,CD3D,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+14,T cells,CD3E,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+15,T cells,CD8A,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+16,T cells,GZMB,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+17,Macrophages,CD68,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+18,Macrophages,CSF1R,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+19,Macrophages,HMOX1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+20,Endothelial cells,COL1A1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+21,Endothelial cells,COL1A2,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+22,Beige adipocytes,CIDEA,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+23,Beige adipocytes,TBX1,10x,scRNA-seq,Adipose-S,Adipose-S_scRNA-seq
+24,Endothelial cells,ACKR1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+25,Endothelial cells,TM4SF1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+26,Endothelial cells,ICAM1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+27,Endothelial cells,PECAM1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+28,Endothelial cells,VWF,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+29,Endothelial cells,ADAMTS9,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+30,Smooth muscle cells,ACTA2,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+31,Smooth muscle cells,TAGLN,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+32,Smooth muscle cells,MYH11,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+33,Smooth muscle cells,CNN1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+34,Smooth muscle cells,DES,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+35,Smooth muscle cells,CALD1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+36,Smooth muscle cells,VCL,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+37,Smooth muscle cells,MYLK,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+38,Smooth muscle cells,SMTN,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+39,T cells,IL7R,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+40,T cells,CD3D,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+41,T cells,GZMB,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+42,T cells,CD2,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+43,T cells,CD3E,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+44,T cells,CD3G,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+45,Mesenchymal cells,MGP,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+46,Mesenchymal cells,APOD,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+47,Mesenchymal cells,CXCL14,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+48,Mesenchymal cells,APOE,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+49,Mesenchymal cells,MFAP5,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+50,Mesenchymal cells,THY1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+51,Endothelial cells,PLVAP,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+52,Macrophages,CD68,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+53,Macrophages,AIF1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+54,Macrophages,CD86,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+55,Macrophages,CD14,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+56,Mast cells,MS4A2,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+57,Beige adipocytes,TBX1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+58,Macrophages,SPP1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+59,Macrophages,F13A1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+60,Macrophages,CD209,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+61,Macrophages,MRC1,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+62,T cells,TCF7,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+63,Erythroid cells,HBB,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+64,Erythroid cells,HBM,10x,scRNA-seq,Adipose-V,Adipose-V_scRNA-seq
+65,Microglia,C1QB,10x,scRNA-seq,Brain,Brain_scRNA-seq
+66,Microglia,CSF1R,10x,scRNA-seq,Brain,Brain_scRNA-seq
+67,Microglia,P2RY12,10x,scRNA-seq,Brain,Brain_scRNA-seq
+68,Excitatory neurons,REFOX3,10x,scRNA-seq,Brain,Brain_scRNA-seq
+69,Excitatory neurons,NDRG4,10x,scRNA-seq,Brain,Brain_scRNA-seq
+70,Excitatory neurons,GRIA3,10x,scRNA-seq,Brain,Brain_scRNA-seq
+71,Excitatory neurons,NEUROD2,10x,scRNA-seq,Brain,Brain_scRNA-seq
+72,T cells,PTPRC,10x,scRNA-seq,Brain,Brain_scRNA-seq
+73,T cells,CD3E,10x,scRNA-seq,Brain,Brain_scRNA-seq
+74,T cells,CD3G,10x,scRNA-seq,Brain,Brain_scRNA-seq
+75,Astrocytes,AQP4,10x,scRNA-seq,Brain,Brain_scRNA-seq
+76,Astrocytes,GFAP,10x,scRNA-seq,Brain,Brain_scRNA-seq
+77,Astrocytes,SLC4A4,10x,scRNA-seq,Brain,Brain_scRNA-seq
+78,Endothelial cells,FLT1,10x,scRNA-seq,Brain,Brain_scRNA-seq
+79,Endothelial cells,IGFBP7,10x,scRNA-seq,Brain,Brain_scRNA-seq
+80,Endothelial cells,ESAM,10x,scRNA-seq,Brain,Brain_scRNA-seq
+81,Endothelial cells,APOLD1,10x,scRNA-seq,Brain,Brain_scRNA-seq
+82,Endothelial cells,PECAM1,10x,scRNA-seq,Brain,Brain_scRNA-seq
+83,Microglia,CD14,10x,scRNA-seq,Brain,Brain_scRNA-seq
+84,Excitatory neurons,SLC17A7,10x,scRNA-seq,Brain,Brain_scRNA-seq
+85,Excitatory neurons,NEUROD6,10x,scRNA-seq,Brain,Brain_scRNA-seq
+86,Microglia,CD68,10x,scRNA-seq,Brain,Brain_scRNA-seq
+87,Microglia,CD74,10x,scRNA-seq,Brain,Brain_scRNA-seq
+88,Inhibitory neurons,GAD1,10x,scRNA-seq,Brain,Brain_scRNA-seq
+89,Inhibitory neurons,GAD2,10x,scRNA-seq,Brain,Brain_scRNA-seq
+90,Inhibitory neurons,PVALB,10x,scRNA-seq,Brain,Brain_scRNA-seq
+91,Inhibitory neurons,GRIA3,10x,scRNA-seq,Brain,Brain_scRNA-seq
+92,Oligodendrocyte progenitor cells,VCAN,10x,scRNA-seq,Brain,Brain_scRNA-seq
+93,Microglia,PTPRC,10x,scRNA-seq,Brain,Brain_scRNA-seq
+94,Oligodendrocytes,MBP,10x,scRNA-seq,Brain,Brain_scRNA-seq
+95,Oligodendrocytes,MAG,10x,scRNA-seq,Brain,Brain_scRNA-seq
+96,Oligodendrocytes,CLDN11,10x,scRNA-seq,Brain,Brain_scRNA-seq
+97,Oligodendrocytes,CNP,10x,scRNA-seq,Brain,Brain_scRNA-seq
+98,Oligodendrocytes,OPALIN,10x,scRNA-seq,Brain,Brain_scRNA-seq
+99,Oligodendrocytes,OLIG1,10x,scRNA-seq,Brain,Brain_scRNA-seq
+100,Erythroid cells,ALAS2,10x,scRNA-seq,Brain,Brain_scRNA-seq
+101,Erythroid cells,HBB,10x,scRNA-seq,Brain,Brain_scRNA-seq
+102,Erythroid cells,HBM,10x,scRNA-seq,Brain,Brain_scRNA-seq
+103,Neural progenitor cells,DCX,10x,scRNA-seq,Brain,Brain_scRNA-seq
+104,Neural progenitor cells,STMN2,10x,scRNA-seq,Brain,Brain_scRNA-seq
+105,Neural progenitor cells,SOX2,10x,scRNA-seq,Brain,Brain_scRNA-seq
+106,B cells,MS4A1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+107,B cells,PTPRC,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+108,"B cells,Transient amplifying cells",MS4A1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+109,"B cells,Transient amplifying cells",TOP2A,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+110,"B cells,Transient amplifying cells",PCNA,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+111,"B cells,Transient amplifying cells",CCNB1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+112,B cells,MZB1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+113,B cells,TNFRSF17,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+114,T cells,CD3E,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+115,T cells,CD3G,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+116,T cells,CD3D,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+117,T cells,CD8A,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+118,T cells,CD8B,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+119,T cells,CD4,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+120,B cells,FCMR,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+121,Macrophages,CD68,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+122,Macrophages,C1QA,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+123,Macrophages,C1QB,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+124,Macrophages,IL18,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+125,Endothelial cells,PECAM1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+126,Endothelial cells,PLVAP,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+127,Fibroblasts,MFAP4,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+128,Fibroblasts,MGP,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+129,Enterocytes,CHP2,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+130,Enterocytes,FABP1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+131,Enterocytes,FABP6,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+132,Macrophages,CSF1R,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+133,Macrophages,AIF1,10x,scRNA-seq,Intestine,Intestine_scRNA-seq
+134,Macrophages,CD14,10x,scRNA-seq,Lung,Lung_scRNA-seq
+135,Macrophages,CD68,10x,scRNA-seq,Lung,Lung_scRNA-seq
+136,Macrophages,AIF1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+137,Macrophages,C1QA,10x,scRNA-seq,Lung,Lung_scRNA-seq
+138,Neutrophils,SELL,10x,scRNA-seq,Lung,Lung_scRNA-seq
+139,T cells,CD2,10x,scRNA-seq,Lung,Lung_scRNA-seq
+140,T cells,CD3E,10x,scRNA-seq,Lung,Lung_scRNA-seq
+141,T cells,CD3G,10x,scRNA-seq,Lung,Lung_scRNA-seq
+142,T cells,CD8A,10x,scRNA-seq,Lung,Lung_scRNA-seq
+143,T cells,CD8B,10x,scRNA-seq,Lung,Lung_scRNA-seq
+144,T cells,CD3D,10x,scRNA-seq,Lung,Lung_scRNA-seq
+145,T cells,CD4,10x,scRNA-seq,Lung,Lung_scRNA-seq
+146,B cells,CD19,10x,scRNA-seq,Lung,Lung_scRNA-seq
+147,B cells,CD79A,10x,scRNA-seq,Lung,Lung_scRNA-seq
+148,B cells,MS4A1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+149,Plasma cells,MZB1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+150,T cells,CD69,10x,scRNA-seq,Lung,Lung_scRNA-seq
+151,"AT1,AT2",AGER,10x,scRNA-seq,Lung,Lung_scRNA-seq
+152,"AT1,AT2",AQP5,10x,scRNA-seq,Lung,Lung_scRNA-seq
+153,"AT1,AT2",CLIC5,10x,scRNA-seq,Lung,Lung_scRNA-seq
+154,"AT1,AT2",SFTPB,10x,scRNA-seq,Lung,Lung_scRNA-seq
+155,"AT1,AT2",SFTPC,10x,scRNA-seq,Lung,Lung_scRNA-seq
+156,"AT1,AT2",SFTPD,10x,scRNA-seq,Lung,Lung_scRNA-seq
+157,Basophils,FCER1A,10x,scRNA-seq,Lung,Lung_scRNA-seq
+158,Ciliated cells,DNAAF1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+159,Ciliated cells,DNAH3,10x,scRNA-seq,Lung,Lung_scRNA-seq
+160,Ciliated cells,FOXJ1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+161,Clara cells,ALDH1A1,10x,scRNA-seq,Lung,Lung_scRNA-seq
+162,Hepatocytes,ALB,10x,scRNA-seq,Liver,Liver_scRNA-seq
+163,Hepatocytes,APOA1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+164,Hepatocytes,ARG1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+165,Hepatocytes,RBP4,10x,scRNA-seq,Liver,Liver_scRNA-seq
+166,Hepatocytes,PCK1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+167,Hepatocytes,ALDOB,10x,scRNA-seq,Liver,Liver_scRNA-seq
+168,Hepatocytes,ASS1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+169,Hepatocytes,APOH,10x,scRNA-seq,Liver,Liver_scRNA-seq
+170,Macrophages,CD74,10x,scRNA-seq,Liver,Liver_scRNA-seq
+171,T cells,CD2,10x,scRNA-seq,Liver,Liver_scRNA-seq
+172,T cells,CD3E,10x,scRNA-seq,Liver,Liver_scRNA-seq
+173,T cells,CD52,10x,scRNA-seq,Liver,Liver_scRNA-seq
+174,T cells,GZMK,10x,scRNA-seq,Liver,Liver_scRNA-seq
+175,Kupffer cells,VSIG4,10x,scRNA-seq,Liver,Liver_scRNA-seq
+176,Kupffer cells,CD163,10x,scRNA-seq,Liver,Liver_scRNA-seq
+177,NK cells,KLRB1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+178,NK cells,NKG7,10x,scRNA-seq,Liver,Liver_scRNA-seq
+179,Macrophages,VCAN,10x,scRNA-seq,Liver,Liver_scRNA-seq
+180,Macrophages,LYZ,10x,scRNA-seq,Liver,Liver_scRNA-seq
+181,Erythroid cells,HBB,10x,scRNA-seq,Liver,Liver_scRNA-seq
+182,Erythroid cells,HBM,10x,scRNA-seq,Liver,Liver_scRNA-seq
+183,Macrophages,S100A8,10x,scRNA-seq,Liver,Liver_scRNA-seq
+184,Macrophages,S100A9,10x,scRNA-seq,Liver,Liver_scRNA-seq
+185,T cells,STMN1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+186,B cells,CD79B,10x,scRNA-seq,Liver,Liver_scRNA-seq
+187,B cells,CD19,10x,scRNA-seq,Liver,Liver_scRNA-seq
+188,B cells,CD22,10x,scRNA-seq,Liver,Liver_scRNA-seq
+189,T cells,TRDC,10x,scRNA-seq,Liver,Liver_scRNA-seq
+190,Endothelial cells,PECAM1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+191,Plasma cells,ENSSSCG00000038719,10x,scRNA-seq,Liver,Liver_scRNA-seq
+192,Plasma cells,MZB1,10x,scRNA-seq,Liver,Liver_scRNA-seq
+193,T cells,CD3E,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+194,T cells,CD3G,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+195,T cells,CD3D,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+196,T cells,TRDC,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+197,CD4+ Naive  T cells,IL7R,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+198,CD4+ Naive  T cells,CCR7,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+199,CD4+ Naive  T cells,CD3E,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+200,CD4+ Naive  T cells,CD3G,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+201,CD4+ Naive  T cells,CD3D,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+202,CD4+ Naive  T cells,CD4,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+203,CD8+ Cytotoxic T cells,CD8A,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+204,CD8+ Cytotoxic T cells,CD3E,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+205,CD8+ Cytotoxic T cells,CD3G,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+206,CD8+ Cytotoxic T cells,CD3D,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+207,Naive B cells,MS4A1,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+208,Naive B cells,CD83,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+209,CD8+ Cytotoxic T cells,GNLY,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+210,CD8+ Cytotoxic T cells,NKG7,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+211,Memory B cells,MS4A1,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+212,Memory B cells,CD83,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+213,Memory B cells,ENSSSCG00000036983,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+214,Monocytes,CD14,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+215,Monocytes,LYZ,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+216,Monocytes,CD68,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+217,CD8+ Naive T cells,IL7R,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+218,CD8+ Naive T cells,CCR7,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+219,CD8+ Naive T cells,CD8A,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+220,CD8+ Naive T cells,CD8B,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+221,CD8+ Naive T cells,CD3E,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+222,CD8+ Naive T cells,CD3G,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+223,CD8+ Naive T cells,CD3D,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+224,CD8+ Cytotoxic T cells,IL7R,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+225,CD8+ Cytotoxic T cells,CCR7,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+226,Cycling cells,CD3G,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+227,Cycling cells,CD3D,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+228,Cycling cells,MZB1,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+229,Cycling cells,TOP2A,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+230,Cycling cells,ENSSSCG00000026302,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+231,CD8+ Naive T cells,GZMK,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+232,Megakaryocytes,PPBP,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+233,Plasma cells,MZB1,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+234,Plasma cells,ENSSSCG00000038719,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+235,Erythroid cells,HBM,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+236,Erythroid cells,HBB,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+237,Dendritic cells,FCER1A,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+238,Dendritic cells,LYZ,10x,scRNA-seq,PBMC,PBMC_scRNA-seq
+239,Rod photoreceptor cells,PDE6A,10x,scRNA-seq,Retina,Retina_scRNA-seq
+240,Rod photoreceptor cells,CNGA1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+241,Rod photoreceptor cells,RHO,10x,scRNA-seq,Retina,Retina_scRNA-seq
+242,Rod photoreceptor cells,SAG,10x,scRNA-seq,Retina,Retina_scRNA-seq
+243,Retinal ganglion cells,NEFL,10x,scRNA-seq,Retina,Retina_scRNA-seq
+244,Retinal ganglion cells,THY1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+245,Retinal ganglion cells,NRN1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+246,Bipolar cells,NETO1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+247,Bipolar cells,PRKCA,10x,scRNA-seq,Retina,Retina_scRNA-seq
+248,Bipolar cells,PCP2,10x,scRNA-seq,Retina,Retina_scRNA-seq
+249,Bipolar cells,TRPM1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+250,Bipolar cells,GNG13,10x,scRNA-seq,Retina,Retina_scRNA-seq
+251,Bipolar cells,CAMK2B,10x,scRNA-seq,Retina,Retina_scRNA-seq
+252,Muller glia,RLBP1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+253,Muller glia,CA2,10x,scRNA-seq,Retina,Retina_scRNA-seq
+254,Microglia,HLA-DRA,10x,scRNA-seq,Retina,Retina_scRNA-seq
+255,Microglia,C1QA,10x,scRNA-seq,Retina,Retina_scRNA-seq
+256,Microglia,CSF1R,10x,scRNA-seq,Retina,Retina_scRNA-seq
+257,Microglia,CD68,10x,scRNA-seq,Retina,Retina_scRNA-seq
+258,Microglia,C1QB,10x,scRNA-seq,Retina,Retina_scRNA-seq
+259,Cone photoreceptor cells,ARR3,10x,scRNA-seq,Retina,Retina_scRNA-seq
+260,Endothelial cells,PECAM1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+261,Endothelial cells,VWF,10x,scRNA-seq,Retina,Retina_scRNA-seq
+262,Endothelial cells,FLT1,10x,scRNA-seq,Retina,Retina_scRNA-seq
+263,T cells,CD3E,10x,scRNA-seq,Retina,Retina_scRNA-seq
+264,T cells,CD3D,10x,scRNA-seq,Retina,Retina_scRNA-seq
+265,T cells,CD3G,10x,scRNA-seq,Retina,Retina_scRNA-seq
+266,T cells,CD2,10x,scRNA-seq,Retina,Retina_scRNA-seq
+267,T cells,PTPRC,10x,scRNA-seq,Retina,Retina_scRNA-seq
+268,T cells,CD2,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+269,T cells,CD3D,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+270,T cells,CD3E,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+271,T cells,CD3G,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+272,T cells,CD4,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+273,T cells,CD8A,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+274,T cells,CD8B,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+275,T cells,CCR7,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+276,T cells,IL7R,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+277,Macrophages,CD68,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+278,Macrophages,C1QA,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+279,Macrophages,C1QC,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+280,Macrophages,CSF1R,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+281,Macrophages,HMOX1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+282,Macrophages,VCAM1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+283,B cells,CD19,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+284,B cells,MS4A1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+285,B cells,CD79A,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+286,B cells,CD79B,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+287,NK cells,KLRF1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+288,NK cells,ENSSSCG00000036618,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+289,NK cells,KLRK1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+290,NK cells,NCR1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+291,Plasma cells,MZB1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+292,Plasma cells,ENSSSCG00000036983,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+293,Erythroid cells,HBB,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+294,Erythroid cells,HBM,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+295,Dendritic cells,HLA-DRA,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+296,Dendritic cells,XCR1,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+297,Dendritic cells,ANPEP,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+298,Cycling cells,TOP2A,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+299,Cycling cells,ENSSSCG00000026302,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+300,Monocytes,CD14,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+301,Monocytes,CD68,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+302,Monocytes,LYZ,10x,scRNA-seq,Spleen,Spleen_scRNA-seq
+303,Oligodendrocytes,MAG,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+304,Oligodendrocytes,CNP,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+305,Oligodendrocytes,ERBIN,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+306,Oligodendrocytes,MBP,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+307,Microglia,RUNX1,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+308,Microglia,ARHGAP24,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+309,Microglia,CALCR,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+310,Microglia,P2RY12,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+311,Oligodendrocyte progenitor cells,PCDH15,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+312,Oligodendrocyte progenitor cells,LHFPL3,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+313,Oligodendrocyte progenitor cells,VCAN,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+314,Inhibitory neurons,SLC6A1,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+315,Inhibitory neurons,GAD2,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+316,Inhibitory neurons,GAD1,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+317,Astrocytes,AQP4,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+318,Astrocytes,SLC1A3,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+319,Astrocytes,SLC1A2,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+320,Astrocytes,GFAP,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+321,Endothelial cells,SLC16A9,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+322,Endothelial cells,COLEC12,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+323,Excitatory neurons,TBR1,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+324,Excitatory neurons,TLE4,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+325,Excitatory neurons,SATB2,10x,snRNA-seq,Hypothalamus,Hypothalamus_snRNA-seq
+326,Oligodendrocytes,MAG,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+327,Oligodendrocytes,CNP,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+328,Oligodendrocytes,ERBIN,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+329,Oligodendrocytes,MBP,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+330,Excitatory neurons,TBR1,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+331,Excitatory neurons,TLE4,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+332,Excitatory neurons,SATB2,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+333,Microglia,RUNX1,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+334,Microglia,ARHGAP24,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+335,Microglia,CALCR,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+336,Microglia,P2RY12,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+337,Oligodendrocyte progenitor cells,PCDH15,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+338,Oligodendrocyte progenitor cells,LHFPL3,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+339,Oligodendrocyte progenitor cells,VCAN,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+340,Inhibitory neurons,SLC6A1,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+341,Inhibitory neurons,GAD2,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+342,Inhibitory neurons,GAD1,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+343,Endothelial cells,SLC16A9,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+344,Endothelial cells,COLEC12,10x,snRNA-seq,Occipital,Occipital lobe_snRNA-seq
+345,Oligodendrocytes,MAG,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+346,Oligodendrocytes,CNP,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+347,Oligodendrocytes,ERBIN,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+348,Oligodendrocytes,MBP,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+349,Excitatory neurons,TBR1,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+350,Excitatory neurons,TLE4,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+351,Excitatory neurons,SATB2,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+352,Oligodendrocyte progenitor cells,PCDH15,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+353,Oligodendrocyte progenitor cells,LHFPL3,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+354,Oligodendrocyte progenitor cells,VCAN,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+355,Microglia,RUNX1,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+356,Microglia,ARHGAP24,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+357,Microglia,CALCR,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+358,Microglia,P2RY12,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+359,Astrocytes,AQP4,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+360,Astrocytes,SLC1A3,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+361,Astrocytes,SLC1A2,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+362,Astrocytes,GFAP,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+363,Inhibitory neurons,SLC6A1,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+364,Inhibitory neurons,GAD2,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+365,Inhibitory neurons,GAD1,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+366,Endothelial cells,SLC16A9,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+367,Endothelial cells,COLEC12,10x,snRNA-seq,Parietal,Parietal lobe_snRNA-seq
+368,Oligodendrocytes,MAG,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+369,Oligodendrocytes,CNP,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+370,Oligodendrocytes,ERBIN,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+371,Oligodendrocytes,MBP,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+372,Excitatory neurons,TBR1,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+373,Excitatory neurons,TLE4,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+374,Excitatory neurons,SATB2,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+375,Microglia,RUNX1,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+376,Microglia,ARHGAP24,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+377,Microglia,CALCR,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+378,Microglia,P2RY12,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+379,Oligodendrocyte progenitor cells,PCDH15,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+380,Oligodendrocyte progenitor cells,LHFPL3,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+381,Oligodendrocyte progenitor cells,VCAN,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+382,Inhibitory neurons,SLC6A1,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+383,Inhibitory neurons,GAD2,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+384,Inhibitory neurons,GAD1,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+385,Astrocytes,AQP4,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+386,Astrocytes,SLC1A3,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+387,Astrocytes,SLC1A2,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+388,Astrocytes,GFAP,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+389,Endothelial cells,SLC16A9,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+390,Endothelial cells,COLEC12,10x,snRNA-seq,Temporal,Temporal lobe_snRNA-seq
+391,Excitatory neurons,RBFOX1,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+392,Oligodendrocytes,MBP,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+393,Oligodendrocytes,PLP1,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+394,Oligodendrocytes,CCP110,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+395,Oligodendrocytes,CLDN11,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+396,Oligodendrocytes,CRYAB,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+397,Oligodendrocytes,MAG,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+398,Oligodendrocytes,MOG,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+399,Inhibitory neurons,GAD1,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+400,Inhibitory neurons,GAD2,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+401,Astrocytes,AQP4,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+402,Astrocytes,GFAP,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+403,Oligodendrocyte progenitor cells,SOX6,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+404,Oligodendrocyte progenitor cells,PDGFRA,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+405,Oligodendrocyte progenitor cells,VCAN,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+406,Oligodendrocyte progenitor cells,OLIG1,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+407,Microglia,CSF1R,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+408,Microglia,C1QA,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+409,Microglia,C1QB,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+410,Microglia,C1QC,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+411,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+412,Endothelial cells,VWF,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+413,Endothelial cells,CDH5,DNBelab C4,snRNA-seq,SubfomicalOrgan,Subfornical Organ_snRNA-seq
+414,Oligodendrocytes,MAG,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+415,Oligodendrocytes,CNP,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+416,Oligodendrocytes,MBP,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+417,Oligodendrocytes,MOG,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+418,Oligodendrocytes,OLIG1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+419,Oligodendrocytes,CLDN11,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+420,Excitatory neurons,RBFOX1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+421,Inhibitory neurons,GAD2,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+422,Inhibitory neurons,GAD1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+423,Inhibitory neurons,SLC32A1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+424,Astrocytes,AQP4,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+425,Astrocytes,SLC1A2,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+426,Astrocytes,GFAP,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+427,Astrocytes,SLC1A3,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+428,Microglia,PTPRC,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+429,Microglia,C1QA,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+430,Microglia,C1QB,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+431,Microglia,C1QC,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+432,Microglia,AIF1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+433,Microglia,CSF1R,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+434,Microglia,P2RY12,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+435,Excitatory neurons,RBFOX3,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+436,Excitatory neurons,CALB2,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+437,Excitatory neurons,SLC17A6,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+438,Oligodendrocyte progenitor cells,OLIG1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+439,Oligodendrocyte progenitor cells,VCAN,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+440,Excitatory neurons,STMN2,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+441,Excitatory neurons,SNAP25,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+442,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+443,Newly formed oligodendrocytes,FYN,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+444,Inhibitory neurons,SLC6A1,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+445,Excitatory neurons,SLC17A7,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+446,Excitatory neurons,NEUROD2,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+447,Excitatory neurons,NEUROD6,DNBelab C4,snRNA-seq,OVoLT,OVoLT_snRNA-seq
+448,Granule cells,RBFOX3,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+449,Granule cells,RELN,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+450,Granule cells,SLC17A7,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+451,Granule cells,RBFOX1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+452,Astrocytes,AQP4,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+453,Astrocytes,SERPINF1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+454,Purkinje cells,GAD1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+455,Purkinje cells,GAD2,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+456,Purkinje cells,PVALB,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+457,Purkinje cells,SLC32A1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+458,Oligodendrocytes,OLIG1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+459,Oligodendrocytes,OPALIN,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+460,Oligodendrocytes,MAG,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+461,Oligodendrocytes,CNP,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+462,Oligodendrocytes,ERBIN,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+463,Oligodendrocytes,MBP,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+464,Astrocytes,MFGE8,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+465,Astrocytes,SLC1A3,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+466,Astrocytes,SLC1A2,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+467,Astrocytes,GFAP,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+468,Microglia,CSF1R,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+469,Microglia,C1QB,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+470,Microglia,CTSS,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+471,Microglia,P2RY12,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+472,Purkinje cells,CALB1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+473,Purkinje cells,PCP2,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+474,Endothelial cells,PDGFRB,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+475,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+476,Oligodendrocyte progenitor cells,OLIG1,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+477,Oligodendrocyte progenitor cells,PDGFRA,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+478,Oligodendrocyte progenitor cells,VCAN,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+479,Oligodendrocyte progenitor cells,PCDH15,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+480,Neural progenitor cells,PAX6,DNBelab C4,snRNA-seq,Cerebellum,Cerebellum_snRNA-seq
+481,Oligodendrocytes,MBP,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+482,Oligodendrocytes,PLP1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+483,Oligodendrocytes,CCP110,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+484,Oligodendrocytes,CLDN11,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+485,Oligodendrocytes,CRYAB,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+486,Oligodendrocytes,MOG,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+487,Oligodendrocytes,MAG,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+488,Microglia,CSF1R,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+489,Microglia,C1QA,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+490,Microglia,C1QB,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+491,Microglia,C1QC,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+492,Astrocytes,AQP4,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+493,Astrocytes,GFAP,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+494,Inhibitory neurons,GAD1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+495,Inhibitory neurons,GAD2,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+496,Inhibitory neurons,SLC32A1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+497,Inhibitory neurons,SLC6A1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+498,Oligodendrocyte progenitor cells,SOX6,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+499,Oligodendrocyte progenitor cells,PDGFRA,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+500,Oligodendrocyte progenitor cells,OLIG1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+501,Oligodendrocyte progenitor cells,VCAN,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+502,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+503,Endothelial cells,FLT1,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+504,Excitatory neurons,STMN2,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+505,Excitatory neurons,TMEM130,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+506,Excitatory neurons,SLC6A4,DNBelab C4,snRNA-seq,AreaPostrema,Area Postrema_snRNA-seq
+507,Oligodendrocytes,MAG,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+508,Oligodendrocytes,CNP,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+509,Oligodendrocytes,ERBIN,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+510,Oligodendrocytes,MBP,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+511,Microglia,RUNX1,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+512,Microglia,ARHGAP24,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+513,Microglia,CALCR,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+514,Microglia,P2RY12,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+515,Oligodendrocyte progenitor cells,PCDH15,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+516,Oligodendrocyte progenitor cells,LHFPL3,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+517,Oligodendrocyte progenitor cells,VCAN,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+518,Excitatory neurons,TBR1,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+519,Excitatory neurons,TLE4,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+520,Excitatory neurons,SATB2,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+521,Inhibitory neurons,SLC6A1,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+522,Inhibitory neurons,GAD2,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+523,Inhibitory neurons,GAD1,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+524,Endothelial cells,SLC16A9,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+525,Endothelial cells,COLEC12,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+526,Astrocytes,AQP4,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+527,Astrocytes,SLC1A3,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+528,Astrocytes,SLC1A2,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+529,Astrocytes,GFAP,10x,snRNA-seq,Frontal,Frontal lobe_snRNA-seq
+530,Cardiomyocytes,ACTN2,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+531,Cardiomyocytes,MYH7,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+532,Cardiomyocytes,FHL2,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+533,Cardiomyocytes,TNNT2,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+534,Fibroblasts,DCN,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+535,Fibroblasts,GSN,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+536,Macrophages,CD163,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+537,Macrophages,CSF1R,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+538,Endothelial cells,CDH5,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+539,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+540,Endothelial cells,VWF,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+541,T cells,CD2,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+542,T cells,CD3E,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+543,T cells,CD3D,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+544,T cells,CD8A,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+545,B cells,PECAM1,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+546,B cells,MZB1,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+547,B cells,CD19,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+548,B cells,CD79B,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+549,Endothelial cells,PTPRC,DNBelab C4,snRNA-seq,Heart,Heart_snRNA-seq
+550,Proximal tubule cells,CUBN,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+551,Proximal tubule cells,LRP2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+552,Proximal tubule cells,SLC13A3,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+553,Proximal tubule cells,SLC22A8,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+554,Proximal tubule cells,SLC34A1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+555,Loop of Henle's cells,SLC12A1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+556,Endothelial cells,EMCN,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+557,Endothelial cells,ENG,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+558,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+559,Endothelial cells,NRP1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+560,Endothelial cells,KDR,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+561,Endothelial cells,BST2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+562,Distal convoluted tubule cells,TMEM52B,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+563,Distal convoluted tubule cells,TMEM213,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+564,Distal convoluted tubule cells,TMEM72,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+565,T cells,PTPRC,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+566,T cells,CD3D,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+567,T cells,CD3E,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+568,T cells,CD3G,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+569,T cells,CD2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+570,Fibroblasts,CALD1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+571,Fibroblasts,COL6A1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+572,Fibroblasts,DCN,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+573,Fibroblasts,EMILIN1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+574,Ureteric epithelial cells,EPCAM,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+575,Ureteric epithelial cells,WFDC2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+576,Collecting duct cells,AQP3,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+577,Collecting duct cells,GATA2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+578,Collecting duct cells,AQP2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+579,Collecting duct cells,PVALB,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+580,Collecting duct cells,TMEM213,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+581,Collecting duct cells,CLDN8,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+582,Podocytes,NPHS1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+583,Podocytes,NPHS2,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+584,Podocytes,WT1,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+585,Podocytes,CLIC5,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+586,Fibroblasts,SLIT3,DNBelab C4,snRNA-seq,Kidney,Kidney_snRNA-seq
+587,Hepatocytes,GHR,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+588,Hepatocytes,HAMP,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+589,Hepatocytes,HSD11B1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+590,Hepatocytes,RPP25L,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+591,Hepatocytes,ALDOB,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+592,Hepatocytes,ASS1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+593,Hepatocytes,APOH,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+594,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+595,Endothelial cells,FLT1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+596,Endothelial cells,VWF,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+597,Endothelial cells,LIFR,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+598,Kupffer cells,CD163,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+599,Kupffer cells,VSIG4,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+600,Hepatic stellate cells,ACTA2,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+601,Hepatic stellate cells,COL1A1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+602,Hepatic stellate cells,RBP1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+603,Hepatic stellate cells,COLEC11,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+604,T cells,CD2,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+605,T cells,CD3D,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+606,T cells,CD8A,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+607,T cells,CD8B,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+608,T cells,GZMK,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+609,B cells,CD19,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+610,B cells,CD37,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+611,B cells,CD79B,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+612,B cells,CD22,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+613,B cells,MZB1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+614,Cholangiocytes,MMP7,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+615,Cholangiocytes,SPP1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+616,Cholangiocytes,ONECUT1,DNBelab C4,snRNA-seq,Liver,Liver_snRNA-seq
+617,AT2,SFTPC,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+618,AT1,AGER,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+619,AT1,SCGB1A1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+620,Fibroblasts,COL6A1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+621,AT2,SFTPB,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+622,AT2,SFTPD,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+623,AT2,ABCA3,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+624,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+625,Endothelial cells,VWF,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+626,Fibroblasts,COL3A1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+627,Fibroblasts,COL1A2,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+628,Ciliated cells,DNAAF1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+629,Ciliated cells,FOXJ1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+630,Ciliated cells,CCDC78,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+631,Macrophages,CD163,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+632,Macrophages,MRC1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+633,Macrophages,CSF1R,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+634,Macrophages,HMOX1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+635,Macrophages,C1QC,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+636,Endothelial cells,CLDN5,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+637,Endothelial cells,CDH5,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+638,Endothelial cells,KDR,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+639,AT1,AQP5,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+640,AT1,CLIC5,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+641,Macrophages,CTSS,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+642,Macrophages,MARCO,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+643,Macrophages,AIF1,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+644,Cycling cells,TOP2A,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+645,Immune cells,PTPRC,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+646,AT2,SCGB3A2,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+647,Fibroblasts,ACTA2,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+648,Fibroblasts,PDGFRB,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+649,Mast cells,MS4A2,DNBelab C4,snRNA-seq,Lung,Lung_snRNA-seq
+650,Smooth muscle cells,CALD1,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+651,Smooth muscle cells,PDGFRB,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+652,T cells,CD2,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+653,T cells,CD3D,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+654,T cells,CD3E,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+655,T cells,CD3G,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+656,T cells,CD4,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+657,T cells,CD8A,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+658,T cells,CD8B,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+659,T cells,CCR7,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+660,T cells,IL7R,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+661,T cells,GZMA,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+662,T cells,GZMB,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+663,Macrophages,CD68,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+664,Macrophages,C1QA,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+665,Macrophages,C1QC,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+666,Macrophages,CSF1R,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+667,Macrophages,HMOX1,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+668,Macrophages,VCAM1,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+669,B cells,CD19,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+670,B cells,CD79A,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+671,B cells,CD79B,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+672,Endothelial cells,PECAM1,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+673,Endothelial cells,KDR,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+674,Endothelial cells,VWF,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+675,Endothelial cells,CD34,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+676,Endothelial cells,PTPRC,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+677,Dendritic cells,HLA-DRA,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+678,Dendritic cells,XCR1,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+679,Dendritic cells,ANPEP,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+680,Dendritic cells,LYZ,DNBelab C4,snRNA-seq,Spleen,Spleen_snRNA-seq
+681,Rod photoreceptor cells,PDE6A,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+682,Rod photoreceptor cells,CNGA1,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+683,Rod photoreceptor cells,RHO,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+684,Rod photoreceptor cells,GNGT1,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+685,Rod photoreceptor cells,SAG,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+686,Retinal ganglion cells,NEFL,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+687,Retinal ganglion cells,STMN2,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+688,Retinal ganglion cells,NEFH,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+689,Cone photoreceptor cells,ARR3,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+690,Cone photoreceptor cells,PDE6C,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+691,Muller glia,RLBP1,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
+692,Muller glia,CA2,DNBelab C4,snRNA-seq,Retina,Retina_snRNA-seq
