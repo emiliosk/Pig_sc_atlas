@@ -1,0 +1,362 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ggalluvial)
+library(biomaRt)
+library(ggdendro)
+library(pcaMethods)
+select <- dplyr::select
+library(uwot)
+library(plotly)
+library(ggplotify)
+library(pheatmap)
+library(patchwork)
+library(ggrepel)
+```
+
+
+
+```{r}
+
+nTPM_sample <- read_csv('pooled_data/weighted_nTPM_per_sample.csv')
+nTPM_global  <- read_csv( 'pooled_data/weighted_nTPM_global.csv')
+celltype_metadata <- read_csv('pooled_data/celltype_name_table.csv')%>%  unite(cell_id, celltype_cluster, pooled_sample, sep = '_', remove = FALSE) 
+
+
+```
+
+```{r}
+
+library(   edgeR   )
+library(  biomaRt  )
+
+organism_db <- "sscrofa_gene_ensembl"
+
+#  TRANSCRIPT GENE INFORMATION
+mart <- useMart("ENSEMBL_MART_ENSEMBL", dataset = "sscrofa_gene_ensembl" )
+
+version = 109
+mart <- useEnsembl ( biomart="genes" , dataset=organism_db , version=version )
+symbol2ens <- getBM( attributes=c( "external_gene_name" , "ensembl_gene_id") , mart=mart ) %>% distinct()
+#transcript_info <- getBM( attributes=c( "ensembl_transcript_id" , "ensembl_gene_id", "gene_biotype", "transcript_biotype") , mart=mart )
+symbol2ens <- symbol2ens %>% filter(ensembl_gene_id %in% nTPM_global$genes)
+```
+
+
+
+
+```{r}
+color_pallette <- celltype_metadata %>% select(group_name, color) %>% distinct() %>% rename(name = group_name) %>% rbind( celltype_metadata %>% select(name = cell_type_name, color) %>% distinct())
+pal <- color_pallette$color
+pal <- setNames(pal,color_pallette$name )
+
+
+gene = 'ENSSSCG00000000211'
+
+gene_id <- symbol2ens %>% filter(external_gene_name == gene | ensembl_gene_id == gene) %>% .$ensembl_gene_id %>% .[[1]]
+
+
+order_cell_type <- celltype_metadata %>% select(cell_type_name, group_name) %>% distinct() %>% arrange(desc(group_name), desc(cell_type_name)) %>% .$cell_type_name %>% unique()
+order_group_name <-  c("Specialized epithelial cells","Glandular epithelial cells","Muscle cells","Mixed","Mesenchymal cells","Glial cells", "Neuronal cells","Endothelial cells","Blood & immune cells"  )
+
+up_plot <- nTPM_global %>% filter(genes == gene_id) %>% left_join(celltype_metadata %>% select(cell_type_name,group_name) %>% distinct()) %>% 
+  mutate(group_name = factor(group_name, order_group_name),
+         cell_type_name = factor(cell_type_name, order_cell_type)) %>% 
+  ggplot(aes(cell_type_name, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+          axis.text.x = element_text(angle = 60, hjust = 1),
+          axis.title.x = element_blank(),
+          plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) +labs(fill = "")+
+    scale_fill_manual(values = pal)  +
+  scale_y_continuous(expand = c(0, 0.5)) +
+  ggtitle (paste0(gene , ' - ', gene_id) )
+
+ggsave(paste0('main_plots/check_genes/',gene, '_global_expression.pdf'), width = 12, height  = 5)
+
+
+
+
+
+
+
+```
+
+
+
+```{r}
+
+
+
+
+down_plot <- nTPM_sample  %>%  filter(genes == gene_id) %>% 
+  separate(sample_name, c('tissue', 'method'), sep = '_') %>% 
+  mutate(tissue = str_to_title(tissue)) %>% 
+  group_by(genes, cell_type_name, tissue) %>% 
+  summarise(nTPM = mean(nTPM)) %>% 
+  mutate(
+    cell_type_name = factor(cell_type_name, order_cell_type),
+    tissue = factor(tissue, c('Adipose-S', 'Adipose-V','Heart', 'Intestine', 'Kidney', 'Liver', 'Lung', 'Pbmc', 'Spleen', 'Retina', 'Brain', 'Frontal Lobe', 'Hypothalamus', 'Occipital Lobe', 'Parietal Lobe', 'Temporal Lobe', 'Cerebellum', 'Area Postrema', 'Subfornical Organ', 'Ovolt'))
+         
+         
+         ) %>%#filter(nTPM > 1) %>% 
+  mutate(nTPM =  ifelse(nTPM < 1, NA, nTPM)) %>% 
+  ggplot(aes(cell_type_name, tissue, fill = cell_type_name, size = nTPM)) +
+  geom_point(shape = 21, 
+             alpha = 0.8,
+             stroke = 0.2,
+             color = "black") + 
+  scale_fill_manual(values = pal) +
+  scale_size_continuous(range = c(1, 6)) +
+  stripped_theme +
+  theme(#axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.2),
+        axis.text.x = element_text(angle = 60, hjust = 1),
+
+        #legend.position = "top", 
+        axis.title =  element_blank(),
+        panel.grid.major = element_line(color = "gray90", size = 0.2)) +  
+  guides(fill = FALSE) +
+  ggtitle (paste0(gene , ' - ', gene_id) )
+  
+ggsave(paste0('main_plots/check_genes/',gene, '_sample_expression.pdf'), width = 6, height  = 10)
+
+
+```
+
+
+```{r}
+
+color_pallette <- celltype_metadata %>% select(group_name, color) %>% distinct() %>% rename(name = group_name) %>% rbind( celltype_metadata %>% select(name = cell_type_name, color) %>% distinct())
+pal <- color_pallette$color
+pal <- setNames(pal,color_pallette$name )
+
+
+gene = 'ENSSSCG00000002768'
+
+gene_id <- symbol2ens %>% filter(external_gene_name == gene | ensembl_gene_id == gene) %>% .$ensembl_gene_id %>% .[[1]]
+
+
+order_cell_type <- celltype_metadata %>% select(cell_type_name, group_name) %>% distinct() %>% arrange(desc(group_name), desc(cell_type_name)) %>% .$cell_type_name %>% unique()
+order_group_name <-  c("Specialized epithelial cells","Glandular epithelial cells","Muscle cells","Mixed","Mesenchymal cells","Glial cells", "Neuronal cells","Endothelial cells","Blood & immune cells"  )
+
+
+
+up_plot <- nTPM_global %>% filter(genes == gene_id) %>% left_join(celltype_metadata %>% select(cell_type_name,group_name) %>% distinct()) %>% 
+  mutate(group_name = factor(group_name, order_group_name),
+         cell_type_name = factor(cell_type_name, order_cell_type)) %>% 
+  ggplot(aes(cell_type_name, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+         # axis.text.x = element_text(angle = 60, hjust = 1),
+         axis.text.x = element_blank(),
+          axis.title.x = element_blank(),
+        # axis.ticks.x = element_blank(),
+      #    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) +labs(fill = "")+
+    scale_fill_manual(values = pal)  +
+  scale_y_continuous(expand = c(0, 0.5)) +
+  ggtitle (paste0(gene , ' - ', gene_id) )
+
+
+down_plot <- nTPM_sample  %>%  filter(genes == gene_id) %>% 
+  separate(sample_name, c('tissue', 'method'), sep = '_') %>% 
+  mutate(tissue = str_to_title(tissue)) %>% 
+  group_by(genes, cell_type_name, tissue) %>% 
+  summarise(nTPM = mean(nTPM)) %>% 
+  mutate(tissue = ifelse(tissue == 'Pbmc', 'PBMC', tissue),
+         tissue = ifelse(tissue == 'Ovolt', 'VOLT', tissue)) %>% 
+  mutate(
+    cell_type_name = factor(cell_type_name, order_cell_type),
+    tissue = factor(tissue, rev(c('Adipose-S', 'Adipose-V','Heart', 'Intestine', 'Kidney', 'Liver', 'Lung', 'PBMC', 'Spleen', 'Retina', 'Brain', 'Frontal Lobe', 'Occipital Lobe', 'Parietal Lobe', 'Temporal Lobe', 'Cerebellum', 'Hypothalamus', 'Subfornical Organ', 'VOLT','Area Postrema')))
+         ) %>%#filter(nTPM > 1) %>% 
+  mutate(nTPM =  ifelse(nTPM < 0.9, NA, nTPM)) %>% 
+  ggplot(aes(cell_type_name, tissue, fill = cell_type_name, size = nTPM)) +
+  geom_point(shape = 21, 
+             alpha = 0.8,
+             stroke = 0.2,
+             color = "black") + 
+  scale_fill_manual(values = pal) +
+  scale_size_continuous(range = c(1, 6)) +
+  stripped_theme +
+  theme(#axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.2),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+
+        #legend.position = "top", 
+        axis.title =  element_blank(),
+        panel.grid.major = element_line(color = "gray90", size = 0.2)) +  guides(fill = FALSE) #+
+  #ggtitle (paste0(gene , ' - ', gene_id) )
+  
+up_plot/down_plot +  theme(plot.margin = unit(c(0,0,0,-2), "cm"))
+
+ggsave(paste0('main_plots/check_genes/',gene, '_expression.pdf'), width = 14, height  = 7)
+
+```
+
+
+
+
+```{r}
+
+
+nTPM_cluster <- read_csv('pooled_data/pooled_nTPM_unweighted.csv')
+
+cluster_plot_data <-nTPM_cluster %>%  filter(genes == gene_id & sample == file)  %>% left_join(celltype_metadata %>%
+                                                                                  filter (pooled_sample == file) %>% 
+                                                                                  select(celltype_cluster,group_name) %>% 
+                                                                                  distinct() ) %>% mutate(group_name = factor(group_name, order_group_name)) %>% arrange (group_name)
+
+cluster_plot_data %>% 
+mutate(celltype_cluster = factor(celltype_cluster, cluster_plot_data$celltype_cluster)) %>% 
+  ggplot(aes(celltype_cluster, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+          axis.text.x = element_text(angle = 60, hjust = 1),
+        #axis.text.x = element_blank(),
+        #  axis.title.x = element_blank(),
+         axis.ticks.x = element_blank(),
+        # axis.ticks.y = element_blank(),
+         #axis.text.y = element_blank(),
+        
+      #    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) +# labs( x = 'Single nuclei Lung clusters')+
+    scale_fill_manual(values = pal, guide = 'none')  +
+  scale_y_continuous(expand = c(0, 0.5)) #+
+#  ggtitle (paste0(gene , ' - ', gene_id) )
+
+#ggsave(paste0('cluster_plots/',gene, '_cluster_expression.pdf'), width = 4, height  = 2)
+
+ggsave(paste0('cluster_plots/',gene, '_cluster_expression.pdf'), width = 5.6470588, height  = 2)
+
+
+```
+
+
+
+```{r}
+
+gene = 'ONECUT1'
+#file =  "Lung_snRNA-seq"
+file = "retina_scRNA-seq" 
+
+gene_id <- symbol2ens %>% filter(external_gene_name == gene | ensembl_gene_id == gene) %>% .$ensembl_gene_id %>% .[[1]]
+
+
+ nTPM_sample %>% filter(genes == gene_id & sample_name == file) %>% left_join(celltype_metadata %>% select(cell_type_name,group_name) %>% distinct()) %>% 
+  mutate(group_name = factor(group_name, order_group_name),
+         cell_type_name = factor(cell_type_name, order_cell_type)) %>% 
+  ggplot(aes(cell_type_name, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+     theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+         # axis.text.x = element_text(angle = 60, hjust = 1),
+        axis.text.x = element_blank(),
+        #  axis.title.x = element_blank(),
+         axis.ticks.x = element_blank(),
+         axis.ticks.y = element_blank(),
+         axis.text.y = element_blank(),
+        
+      #    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) + labs( x = 'Single nuclei Lung cells types')+
+    scale_fill_manual(values = pal, guide = 'none')  +
+  scale_y_continuous(expand = c(0, 0.5)) #+
+#  ggtitle (paste0(gene , ' - ', gene_id) )
+
+ggsave(paste0('cluster_plots/',gene, 'cell_type_adiposev_expression.pdf'), width = 3.294118, height  = 2)
+
+```
+
+```{r}
+
+gene = 'ATG5'
+#file =  "Lung_snRNA-seq"
+#file = "Adipose-V_scRNA-seq"
+
+gene_id <- symbol2ens %>% filter(external_gene_name == gene | ensembl_gene_id == gene) %>% .$ensembl_gene_id %>% .[[1]]
+
+
+ nTPM_sample %>% filter(genes == gene_id) %>% left_join(celltype_metadata %>% select(cell_type_name,pooled_sample, group_name) %>% distinct() %>% unite(cell_id, c(cell_type_name,pooled_sample), remove = FALSE )) %>% 
+  mutate(group_name = factor(group_name, order_group_name),
+         cell_type_name = factor(cell_type_name, order_cell_type)) %>% 
+  ggplot(aes(cell_id, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+     theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+         # axis.text.x = element_text(angle = 60, hjust = 1),
+        axis.text.x = element_blank(),
+        #  axis.title.x = element_blank(),
+         axis.ticks.x = element_blank(),
+         axis.ticks.y = element_blank(),
+         axis.text.y = element_blank(),
+        
+      #    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) + labs( x = 'Single nuclei Lung cells types')+
+    scale_fill_manual(values = pal, guide = 'none')  +
+  scale_y_continuous(expand = c(0, 0.5)) #+
+#  ggtitle (paste0(gene , ' - ', gene_id) )
+ 
+ 
+# nTPM_sample %>% group_by(cell_id) %>% count()
+```
+
+
+```{r}
+
+color_pallette <- celltype_metadata %>% select(group_name, color) %>% distinct() %>% rename(name = group_name) %>% rbind( celltype_metadata %>% select(name = cell_type_name, color) %>% distinct())
+pal <- color_pallette$color
+pal <- setNames(pal,color_pallette$name )
+
+
+gene = 'ATG5'
+
+gene_id <- symbol2ens %>% filter(external_gene_name == gene | ensembl_gene_id == gene) %>% .$ensembl_gene_id %>% .[[1]]
+
+
+order_cell_type <- celltype_metadata %>% select(cell_type_name, group_name) %>% distinct() %>% arrange(desc(group_name), desc(cell_type_name)) %>% .$cell_type_name %>% unique()
+order_group_name <-  c("Specialized epithelial cells","Glandular epithelial cells","Muscle cells","Mixed","Mesenchymal cells","Glial cells", "Neuronal cells","Endothelial cells","Blood & immune cells"  )
+
+
+
+up_plot <- nTPM_global %>% filter(genes == gene_id) %>% left_join(celltype_metadata %>% select(cell_type_name,group_name) %>% distinct()) %>% 
+  mutate(group_name = factor(group_name, order_group_name),
+         cell_type_name = factor(cell_type_name, order_cell_type)) %>% 
+  ggplot(aes(cell_type_name, nTPM, fill = group_name)) +
+    geom_col(width = 0.8, size = 0.1)+
+   stripped_theme+ 
+    theme(panel.grid.major = element_blank(), 
+          panel.grid.minor = element_blank(),
+         # axis.text.x = element_text(angle = 60, hjust = 1),
+        axis.text.x = element_blank(),
+        #  axis.title.x = element_blank(),
+         axis.ticks.x = element_blank(),
+         axis.ticks.y = element_blank(),
+         axis.text.y = element_blank(),
+        
+      #    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+          ) + labs( x = '66 single cell types')+
+    scale_fill_manual(values = pal, guide = 'none')  +
+  scale_y_continuous(expand = c(0, 0.5)) #+
+#  ggtitle (paste0(gene , ' - ', gene_id) )
+ggsave(paste0('cluster_plots/',gene, 'atg5_expression.pdf'), width = 9, height  = 2)
+
+```
+
+
+
+```{r}
+
+celltype_metadata %>% filter (mixture == FALSE) %>% select(cell_type_name) %>% distinct()
+```
